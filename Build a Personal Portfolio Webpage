@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>My Portfolio</title>
+</head>
+<body>
+  <header id="navbar">
+    <nav>
+      <ul>
+        <li><a href="#welcome-section">Welcome</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+    <a id="profile-link" href="https://github.com/yourusername" target="_blank">GitHub Profile</a>
+  </header>
+
+  <section id="welcome-section">
+    <h1>Welcome to My Portfolio</h1>
+  </section>
+
+  <section id="projects">
+    <div class="project-tile">
+      <h2>Project Title</h2>
+      <p>Description of the project.</p>
+      <a href="#" class="project-link">View Project</a>
+    </div>
+  </section>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#profile-link {
+  color: #61dafb; /* GitHub color */
+  margin-left: auto;
+}
+
+#welcome-section {
+  height: 100vh;
+  text-align: center;
+  padding-top: 80px; /* Adjust as needed */
+}
+
+#projects {
+  padding: 40px;
+  background-color: #f0f0f0;
+}
+
+.project-tile {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
