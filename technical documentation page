@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Technical Documentation</title>
+</head>
+<body>
+
+  <nav id="navbar">
+    <header>
+      <h1>Technical Documentation</h1>
+    </header>
+    <ul>
+      <li><a class="nav-link" href="#introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#section_one">Section One</a></li>
+      <li><a class="nav-link" href="#section_two">Section Two</a></li>
+      <li><a class="nav-link" href="#section_three">Section Three</a></li>
+      <li><a class="nav-link" href="#section_four">Section Four</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-doc">
+
+    <section id="introduction" class="main-section">
+      <header>Introduction</header>
+      <p>Your introduction content here. This is the first paragraph.</p>
+      <p>Another paragraph in the introduction section.</p>
+      <p>One more paragraph for the introduction.</p>
+      <code>const example = "This is a code example";</code>
+      <code>// Another code example here</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
+    </section>
+
+    <section id="section_one" class="main-section">
+      <header>Section One</header>
+      <p>Your Section One content here. This is the first paragraph.</p>
+      <p>Another paragraph in Section One.</p>
+      <p>One more paragraph for Section One.</p>
+      <code>// Code example for Section One</code>
+      <code>function exampleFunction() { /* code */ }</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+      </ul>
+    </section>
+
+    <section id="section_two" class="main-section">
+      <header>Section Two</header>
+      <p>Your Section Two content here. This is the first paragraph.</p>
+      <p>Another paragraph in Section Two.</p>
+      <p>One more paragraph for Section Two.</p>
+      <code>// Code example for Section Two</code>
+      <code>const exampleVar = "Another code example";</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
+    </section>
+
+    <section id="section_three" class="main-section">
+      <header>Section Three</header>
+      <p>Your Section Three content here. This is the first paragraph.</p>
+      <p>Another paragraph in Section Three.</p>
+      <p>One more paragraph for Section Three.</p>
+      <code>// Code example for Section Three</code>
+      <code>console.log("Logging from Section Three");</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+      </ul>
+    </section>
+
+    <section id="section_four" class="main-section">
+      <header>Section Four</header>
+      <p>Your Section Four content here. This is the first paragraph.</p>
+      <p>Another paragraph in Section Four.</p>
+      <p>One more paragraph for Section Four.</p>
+      <code>// Code example for Section Four</code>
+      <code>// More code in Section Four</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+      </ul>
+    </section>
+
+  </main>
+
+</body>
+</html>
+
+
+
+
+
+///////////css////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px 0;
+}
+
+main {
+  margin-left: 250px; /* Adjust based on the width of the navbar */
+}
+
+.main-section {
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #navbar {
+    width: 100%;
+  }
+
+  main {
+    margin-left: 0;
+  }
+}
