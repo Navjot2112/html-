@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Please fill out the survey form below:</p>
+
+  <form id="survey-form">
+    <label for="name" id="name-label">Name:
+      <input type="text" id="name" placeholder="Enter your name" required>
+    </label>
+
+    <label for="email" id="email-label">Email:
+      <input type="email" id="email" placeholder="Enter your email" required>
+    </label>
+
+    <label for="number" id="number-label">Number:
+      <input type="number" id="number" placeholder="Enter a number" min="1" max="100" required>
+    </label>
+
+    <label for="dropdown">Select an option:
+      <select id="dropdown">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+      </select>
+    </label>
+
+    <fieldset>
+      <legend>Choose one option:</legend>
+      <label for="radio1">
+        <input type="radio" id="radio1" name="radioGroup" value="option1"> Option 1
+      </label>
+      <label for="radio2">
+        <input type="radio" id="radio2" name="radioGroup" value="option2"> Option 2
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Select multiple options:</legend>
+      <label for="checkbox1">
+        <input type="checkbox" id="checkbox1" name="checkboxGroup" value="option1"> Option 1
+      </label>
+      <label for="checkbox2">
+        <input type="checkbox" id="checkbox2" name="checkboxGroup" value="option2"> Option 2
+      </label>
+    </fieldset>
+
+    <label for="comments">Additional comments:
+      <textarea id="comments" placeholder="Enter your comments"></textarea>
+    </label>
+
+    <input type="submit" id="submit" value="Submit">
+  </form>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////css//////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#survey-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+#submit {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #45a049;
+}
+
