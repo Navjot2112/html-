@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    
+    <title>CatPhotoApp</title>
+  </head>
+  <body style="background-color: rgb(209, 180, 135);text-align: center;">
+    
+    <main>
+      <h1>Cat Information</h1>
+      <marquee behavior=scroll direction="left" scrollamount="10">Your message here</marquee>
+        <h2>Orange Cat </h2>
+      
+
+        <img src="https://i0.hippopx.com/photos/562/493/140/cat-kitten-mieze-mackerel-thumb.jpg" alt="A cute orange cat lying on its back."></a>
+        <pre style="font-size: large; text-transform: text-indent ;font-size: 20px; "> 
+        Some orange tabbies are so affectionate that they are often cat-egorized as “velcro” kitties.
+        They are also chatty kitties. Orange tabbies are known to be quite talkative
+         All orange cats are tabbies, but not all tabbies are orange </pre>
+
+
+
+<h2>Tabby cat </h2>
+      
+
+
+        <img src ="https://cat-world.com/wp-content/uploads/2017/06/brown-tabby-cat-scaled.jpg" height="300px" width=""300px" alt="A cute orange cat lying on its back."></a>
+<pre style="font-size: large; text-transform: text-indent ;font-size: 20px;"> 
+  Tabby is a coat pattern among domestic cats that features an agouti pattern of alternating dark and
+  pale bands of colour along the hair shaft with contrasting darker spots,
+  stripes or sworls and a prominent M on the forehead. </pre>
+
+
+
+  <p>See more <a href="https://pixabay.com/images/search/cute%20cat/" >cat photos</a> in our gallery.</p>
+     
+   
+  </body>
